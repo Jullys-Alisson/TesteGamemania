@@ -6,8 +6,11 @@ Teste de navegação no site Game Mania
 Foram realizados testes no campo de pesquisas de cursos no site ttp://localhost:4200/login, e obtivemos o seguinte resultado.
 
 •	Na tentativa de login com e-mail correto e senha incorreta – Retorno esperado com “senha incorreta”
+
 •	Na tentativa de login com e-mail correto e senha correta – Retorno esperado com “Sucesso” 
+
 •	Na tentativa de login com e-mail incorreto e senha correta – Retorno esperado com “ Usuário não encontrado ”
+
 •	Ao final, inserimos um código para automatizar o teste, o qual funcionou como o esperado
 
 
