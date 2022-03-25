@@ -54,7 +54,7 @@ public class TesteLogin {
 			
 			inputEmail.sendKeys(" jullys@mail");
 			inputSenha.sendKeys("senha123456");
-			botaoLogin.click(); 
+			botaoLogin.click();  
 			
 			
 
