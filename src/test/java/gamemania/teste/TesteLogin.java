@@ -31,6 +31,10 @@ public class TesteLogin {
 			WebElement inputSenha = driver.findElement(By.id("senha"));
 			WebElement botaoLogin = driver.findElement(By.className("button"));
 			
+			inputEmail.sendKeys(" jullys@mail");
+			inputSenha.sendKeys("senha123456");
+			botaoLogin.click();  
+			
 			/*String[] listaSenhas = {"primeira","segunda","terceira","senha123456"};
 			for (int tentativa = 0; tentativa < listaSenhas.length; tentativa++) {
 			
@@ -51,12 +55,6 @@ public class TesteLogin {
 			
 			
 			}*/
-			
-			inputEmail.sendKeys(" jullys@mail");
-			inputSenha.sendKeys("senha123456");
-			botaoLogin.click();  
-			
-			
 
 			//driver.findElement(By.id("oqEstabuscando")).sendKeys("Técnico");
 
